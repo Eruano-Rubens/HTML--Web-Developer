@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+</head>
+<body>
+    <h1>Guia de estudos de Tags</h1>
+    <hr>
+    <h2 id="inicio">Indice</h2>
+    <ul>
+        <li><a href="#definicao">Oque é html</a></li>
+        <li><a href="#estrutura">Estrutura básica</a></li>
+        <li><a href="#semaanticas">Tags semânticas</a></li>
+        <li><a href="#links">Links</a></li>
+    </ul>
+    <h2 id="definicao">Oque é html</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>HTML é a sigla para "HyperText Markup Language" (Linguagem de Marcação de Hipertexto),é uma linguagem de computador, que nos permite construir websites.</p>
+    <p>Com o HTML definimos para o navegador o significado e a estrutura do conteúdo da web e, com tudo que é contido nela, alem de texto, nossas páginas precisam de imagens, vídeos e vários outros formatos e para isso temos os elementos HTML.</p>
+    <p>Essas estruturas são definadas através das Tags, que são utilizadas para informar o navegador de como é a estrutura esta sendo construida como títulos,parágrafos, imagens, links entre outros.As tags são formadas por uma estrutura própria, iniciam com o sinal “menor que”, em seguida vem o nome daquele elemento e por fim, o sinal “maior que”.  </p>
+    <p>Um elemento HTML é formado pela tag de abertura e seus atributos, o conteúdo e uma tag de fechamento. E mais a frente veremos que existem elementos que não tem tag de fechamento.</p>
+    <p>Com esses elementos podemos agrupar tipos de conteúdo, alterar tamanho e forma de fontes e adicionar diferentes mídias ao nossa página na web.</p>
+
+    <h2 id="estrutura">Estrutura básica</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Para que poossamos iniciar a construção de uma pagina web, necessitamos de uma estrutiura básica, da seguinte forma.</p>
+    
+    <img src="./surce/estrutura.PNG" alt="Estrutura básica">
+    <h6>imagem ilustrativa</h6>
+    <h3>< !DOCTYPE html ></h3>
+    <p>O <strong>< !DOCTYPE html ></strong> é primeira linha do documento, apesar de parecer um elemento HTML ela apenas diz ao navegador que ele está lidando com um arquivo do tipo HTML5. Os elementos HTML vem logo abaixo.</p>
+    <h3>< html ></html></h3>
+    <p>A tag <strong>< html ></strong> é a raiz do seu documento, todos os elementos HTML devem estar dentro dela. E nela nós informamos ao navegador qual é o idioma desse nosso documento, através do atributo lang, para o português brasileiro usamos pt-BR.</p>
+    <h3>< head ></h3>
+    <p>A tag <strong>< head ></strong> contém elementos que serão lidos pelo navegador, como os metadados - um exemplo é o charset, que é a codificação de caracteres e a mais comum é a UTF-8, o JavaScript com a tag script, o CSS através das tags style e link - veremos a diferença quando falarmos sobre CSS - e o título da página com a tag title.</p>
+    <h3>< meta ></h3>
+    <p>A <strong>< meta ></strong> define metadados, ou seja, informações sobre dados de um documento HTML. As <.meta> tags vão dentro do elemento <.head> e são usadas para especificar o conjunto de caracteres, o autor do documento, as configurações da janela de visualização etc.</p>
+    <h3>< body ></h3>
+    <p>E dentro da tag <strong>< body ></strong> colocamos todo o conteúdo visível ao usuário: textos, imagens, vídeos.</p>
+
+    <h2 id="semaanticas">Tags semânticas</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <p>Tags semânticas elas possuem seu significado que dão sentido as informações do texto. como cabecalhos, paragrafo listas e outros.</p>
+    <h3>Listas de Tags</h3>
+    <ul>
+        <li><strong>< header ></strong> : é usada para definição do cabeçalho da pagina.</li>
+        <li><strong>< main ></strong>: com ela que se define seu conteudo principal o corpo da pagina.</li>
+        <li><strong>< footer ></strong>: é o rodapé da pagina, geralmentee adicionado meios de contatos e informações. </li>
+        <li><strong>< section ></strong>: é compreendida commo uma seção da pagina dentro do corpo principal.</li>
+        <li><strong>< article ></strong>: inclui artigo na página,e tambem indica o conteudo principal. </li>
+        <li><strong>< aside ></strong>: representa uma seção que faz referência a um conteudo extra.</li>
+        <li><strong>< nav ></strong>: dentro desta tag inserimos listas e links com a tag < a href="" >, assim completando o conteudo da pagina.</a></li>
+        <li><strong>< ol ></strong>: serve para criar lista ordenadas, nessas a ordem importa, portanto elas são representadas com números, algarismos romanos ou letras.</li>
+        <li><strong>< ul ></strong>: cria uma lista não ordenada, onde a ordem dos elementos não é importante, e é representada com pontos, círculos ou quadrados.</li>
+        <li><strong>< li ></strong>: é um item dentro de uma dessas listas. Um pode conter vários tipos de conteúdos, como parágrafos, imagens e até outras lista> s.</li>
+    </ul>
+
+    <h2 id="links">Links</h2>
+    <small><a href="#inicio">(Voltar)</a></small>
+    <ul>
+        <a href="https://www.hostgator.com.br/blog/conheca-o-html/" target="_blank">https://www.hostgator.com.br/blog/conheca-o-html/</a>
+        <a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica" target="_blank">https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica</a>
+        <a href="https://www.w3schools.com/html/default.asp" target="_blank">https://www.w3schools.com/html/default.asp</a>
+    </ul>
+    
+</body>
+</html>
